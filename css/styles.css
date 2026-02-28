@@ -159,9 +159,9 @@ a,
   width: 2.65rem;
   height: 2.65rem;
   border-radius: 0.9rem;
-  background: linear-gradient(145deg, rgba(120, 217, 255, 0.95), rgba(11, 93, 255, 0.95));
+  background: linear-gradient(180deg, rgba(20, 49, 90, 0.96), rgba(8, 26, 52, 0.98));
   color: #ffffff;
-  box-shadow: 0 12px 28px rgba(11, 93, 255, 0.28);
+  box-shadow: 0 8px 18px rgba(2, 12, 28, 0.22);
 }
 
 .brand-mark::after {
@@ -169,7 +169,7 @@ a,
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  border: 1px solid rgba(255, 255, 255, 0.26);
+  border: 1px solid rgba(255, 255, 255, 0.14);
 }
 
 .brand-text {
@@ -253,9 +253,9 @@ a,
 
 .hero-overlay {
   background:
-    linear-gradient(90deg, rgba(2, 12, 28, 0.86) 0%, rgba(3, 16, 36, 0.66) 42%, rgba(4, 18, 40, 0.5) 100%),
-    linear-gradient(180deg, rgba(2, 10, 24, 0.32) 0%, rgba(2, 12, 28, 0.58) 70%, rgba(2, 12, 28, 0.92) 100%),
-    radial-gradient(circle at 18% 24%, rgba(45, 140, 255, 0.12), transparent 24%);
+    linear-gradient(90deg, rgba(2, 12, 28, 0.92) 0%, rgba(3, 16, 36, 0.78) 24%, rgba(4, 18, 40, 0.46) 54%, rgba(4, 18, 40, 0.18) 78%, rgba(4, 18, 40, 0.08) 100%),
+    linear-gradient(180deg, rgba(2, 10, 24, 0.26) 0%, rgba(2, 12, 28, 0.34) 62%, rgba(2, 12, 28, 0.74) 100%),
+    radial-gradient(circle at 16% 26%, rgba(45, 140, 255, 0.1), transparent 22%);
 }
 
 .hero-shell {
@@ -314,6 +314,7 @@ a,
   position: relative;
   z-index: 1;
   width: min(100%, 45rem);
+  color: var(--text-inverse);
 }
 
 .hero-content .eyebrow {
@@ -409,6 +410,8 @@ a,
   font-size: clamp(3.1rem, 7vw, 5.8rem);
   line-height: 0.96;
   letter-spacing: -0.06em;
+  color: rgba(248, 252, 255, 0.98);
+  text-shadow: 0 8px 24px rgba(2, 12, 28, 0.32);
 }
 
 .hero-emphasis {
@@ -434,7 +437,8 @@ a,
   margin-top: 1rem;
   font-size: clamp(1.2rem, 2.2vw, 1.75rem);
   line-height: 1.28;
-  color: rgba(245, 251, 255, 0.92);
+  color: rgba(245, 251, 255, 0.95);
+  text-shadow: 0 6px 20px rgba(2, 12, 28, 0.2);
 }
 
 .hero-message {
@@ -443,14 +447,14 @@ a,
   padding: 1.45rem 1.55rem;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 8px;
-  background: linear-gradient(180deg, rgba(4, 17, 37, 0.58), rgba(4, 17, 37, 0.68));
-  backdrop-filter: blur(8px);
-  box-shadow: 0 20px 44px rgba(2, 12, 28, 0.2);
+  background: linear-gradient(180deg, rgba(4, 17, 37, 0.42), rgba(4, 17, 37, 0.54));
+  backdrop-filter: blur(4px);
+  box-shadow: 0 18px 34px rgba(2, 12, 28, 0.14);
 }
 
 .hero-message p {
   margin: 0;
-  color: rgba(245, 251, 255, 0.9);
+  color: rgba(245, 251, 255, 0.96);
   font-size: clamp(1.02rem, 1.9vw, 1.18rem);
   line-height: 1.7;
 }
