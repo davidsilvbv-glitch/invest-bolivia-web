@@ -2,7 +2,7 @@ const navToggle = document.querySelector(".nav-toggle");
 const navMenu = document.querySelector(".nav-menu");
 const yearNode = document.querySelector("#current-year");
 const revealTargets = document.querySelectorAll(
-  ".hero-content, .hero-message, .section-heading, .content-card, .info-card, .sector-card, .data-panel, .event-card, .site-footer"
+  ".hero-content, .hero-message, .page-hero-layout, .section-heading, .overview-card, .content-card, .detail-card, .mini-card, .info-card, .sector-card, .data-panel, .event-card, .site-footer"
 );
 
 if (yearNode) {
