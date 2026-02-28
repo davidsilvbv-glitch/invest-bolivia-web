@@ -42,7 +42,7 @@ body {
   margin: 0;
   min-height: 100vh;
   overflow-x: hidden;
-  font-family: "Public Sans", "Segoe UI", sans-serif;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
   background:
     radial-gradient(circle at 8% 10%, rgba(45, 140, 255, 0.08), transparent 22%),
     radial-gradient(circle at 92% 12%, rgba(11, 93, 255, 0.06), transparent 24%),
@@ -98,7 +98,7 @@ h2,
 h3,
 strong {
   margin: 0;
-  font-family: "Red Hat Display", "Public Sans", sans-serif;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
 }
 
 button,
@@ -147,7 +147,7 @@ a,
   display: inline-flex;
   align-items: center;
   gap: 0.85rem;
-  font-family: "Red Hat Display", "Public Sans", sans-serif;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
   font-weight: 800;
   letter-spacing: -0.04em;
 }
@@ -265,7 +265,7 @@ a,
   align-items: center;
   width: 100%;
   min-height: 100svh;
-  padding: clamp(7.5rem, 13vh, 9rem) 0 4rem;
+  padding: clamp(7.5rem, 13vh, 9rem) clamp(1.5rem, 4vw, 3rem) 4rem clamp(2.25rem, 5vw, 4.25rem);
 }
 
 .hero::before,
@@ -313,7 +313,7 @@ a,
 .hero-content {
   position: relative;
   z-index: 1;
-  width: min(100%, 45rem);
+  width: min(100%, 38rem);
   color: var(--text-inverse);
 }
 
@@ -373,9 +373,9 @@ a,
   display: inline-block;
   margin-bottom: 1rem;
   color: var(--accent-hot);
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   font-weight: 800;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
 }
 
@@ -406,22 +406,20 @@ a,
 }
 
 .hero h1 {
-  max-width: 11ch;
-  font-size: clamp(3.1rem, 7vw, 5.8rem);
-  line-height: 0.96;
-  letter-spacing: -0.06em;
+  max-width: 8.2ch;
+  font-family: "IBM Plex Serif", Georgia, serif;
+  font-size: clamp(2.9rem, 6.2vw, 5rem);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
   color: rgba(248, 252, 255, 0.98);
   text-shadow: 0 8px 24px rgba(2, 12, 28, 0.32);
 }
 
 .hero-emphasis {
-  color: transparent;
-  background: linear-gradient(90deg, #dff3ff, var(--accent-hot) 52%, #9cc9ff);
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-family: "Red Hat Display", "Public Sans", sans-serif;
+  color: #bfe2ff;
+  font-family: "IBM Plex Serif", Georgia, serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .hero-text {
@@ -433,18 +431,18 @@ a,
 }
 
 .hero-subtitle {
-  max-width: 34rem;
+  max-width: 28rem;
   margin-top: 1rem;
-  font-size: clamp(1.2rem, 2.2vw, 1.75rem);
-  line-height: 1.28;
+  font-size: clamp(1.05rem, 1.7vw, 1.35rem);
+  line-height: 1.42;
   color: rgba(245, 251, 255, 0.95);
   text-shadow: 0 6px 20px rgba(2, 12, 28, 0.2);
 }
 
 .hero-message {
-  max-width: 42rem;
-  margin-top: 1.6rem;
-  padding: 1.45rem 1.55rem;
+  max-width: 31rem;
+  margin-top: 1.2rem;
+  padding: 1rem 1.15rem;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 8px;
   background: linear-gradient(180deg, rgba(4, 17, 37, 0.42), rgba(4, 17, 37, 0.54));
@@ -455,8 +453,8 @@ a,
 .hero-message p {
   margin: 0;
   color: rgba(245, 251, 255, 0.96);
-  font-size: clamp(1.02rem, 1.9vw, 1.18rem);
-  line-height: 1.7;
+  font-size: clamp(0.96rem, 1.25vw, 1.05rem);
+  line-height: 1.62;
 }
 
 .hero-actions {
@@ -473,7 +471,7 @@ a,
   min-height: 3.3rem;
   padding: 0.9rem 1.4rem;
   border-radius: 999px;
-  font-family: "Red Hat Display", "Public Sans", sans-serif;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
   font-size: 0.95rem;
   font-weight: 700;
 }
