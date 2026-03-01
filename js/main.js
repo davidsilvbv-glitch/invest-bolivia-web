@@ -1,6 +1,8 @@
 const navToggle = document.querySelector(".nav-toggle");
 const navMenu = document.querySelector(".nav-menu");
 const yearNode = document.querySelector("#current-year");
+const registerButton = document.querySelector("#btnRegistro");
+const registerFormContainer = document.querySelector("#formContainer");
 const revealTargets = document.querySelectorAll(
   ".hero-content, .hero-message, .page-hero-layout, .section-heading, .overview-card, .content-card, .detail-card, .mini-card, .info-card, .sector-card, .data-panel, .event-card, .site-footer"
 );
@@ -20,6 +22,13 @@ if (navToggle && navMenu) {
       navMenu.classList.remove("is-open");
       navToggle.setAttribute("aria-expanded", "false");
     });
+  });
+}
+
+if (registerButton && registerFormContainer) {
+  registerButton.addEventListener("click", () => {
+    registerFormContainer.hidden = false;
+    registerButton.setAttribute("aria-expanded", "true");
   });
 }
 

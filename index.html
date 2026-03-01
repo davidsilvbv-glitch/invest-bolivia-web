@@ -57,7 +57,14 @@
             <p>Informaci&oacute;n sectorial y acompa&ntilde;amiento para evaluar, entrar y crecer en Bolivia.</p>
           </div>
           <div class="hero-actions">
-            <a class="button button-primary" href="#nosotros">Explorar oportunidades</a>
+            <button class="button button-primary" id="btnRegistro" type="button">Explorar oportunidades</button>
+          </div>
+          <div class="hero-form-panel" id="formContainer" hidden>
+            <form action="registro.php" method="POST" class="hero-form">
+              <input type="text" name="nombre" placeholder="Nombre" required>
+              <input type="email" name="email" placeholder="Correo" required>
+              <button class="button button-primary" type="submit">Registrarse</button>
+            </form>
           </div>
         </div>
       </div>
