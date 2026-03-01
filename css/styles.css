@@ -377,9 +377,9 @@ a,
   display: inline-block;
   margin-bottom: 1rem;
   color: var(--accent-hot);
-  font-size: 0.76rem;
+  font-size: 0.98rem;
   font-weight: 800;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
 }
 
