@@ -1085,6 +1085,11 @@ a,
   line-height: 1.64;
 }
 
+.detail-card .detail-list,
+.detail-card .detail-list li {
+  color: var(--text-soft);
+}
+
 .detail-note {
   padding: 1.15rem 1.2rem;
   border-left: 3px solid rgba(11, 93, 255, 0.38);
