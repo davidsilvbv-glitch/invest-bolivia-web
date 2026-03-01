@@ -792,6 +792,7 @@ a,
 
 .content-card-wide {
   display: grid;
+  align-content: start;
   gap: 1rem;
 }
 
