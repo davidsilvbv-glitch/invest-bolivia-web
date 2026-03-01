@@ -916,6 +916,10 @@ a,
   color: var(--text-inverse);
 }
 
+.section-dark .event-card .feature-list {
+  color: var(--text-soft);
+}
+
 .highlight-card {
   display: grid;
   place-items: center;
